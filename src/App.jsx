@@ -15,9 +15,7 @@ export default function App() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
+          if (entry.isIntersecting) setActiveSection(entry.target.id);
         });
       },
       { threshold: 0.4 }
@@ -27,7 +25,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className="min-h-screen bg-sand-100">
       <Navbar activeSection={activeSection} />
       <main>
         <Hero />
