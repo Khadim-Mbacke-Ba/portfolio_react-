@@ -15,21 +15,22 @@ export default {
           400: "#C8C2B8",  // disabled
         },
 
+        /* Ink = semantic text system (NO -900 SCALE) */
         ink: {
-          DEFAULT: "#0D0D0C", // primary text
-          secondary: "#2F2F2C", // subtitles (plus contrasté)
-          muted: "#7A7A74", // helper text
+          DEFAULT: "#0D0D0C",   // primary text
+          secondary: "#2F2F2C",  // secondary text
+          muted: "#7A7A74",     // helper text
         },
 
         /* =========================
            PRIMARY (Stripe-like accent)
         ========================= */
         teal: {
-          50:  "#E9FBF5",  // background tint
+          50: "#E9FBF5",
           100: "#CFF5E8",
-          500: "#1D9E75",  // primary action
-          600: "#148563",  // hover
-          700: "#0F6E56",  // active
+          500: "#1D9E75",
+          600: "#148563",
+          700: "#0F6E56",
         },
 
         /* =========================
@@ -37,8 +38,8 @@ export default {
         ========================= */
         success: "#22C55E",
         warning: "#F59E0B",
-        danger:  "#EF4444",
-        info:    "#3B82F6",
+        danger: "#EF4444",
+        info: "#3B82F6",
       },
 
       fontFamily: {
@@ -54,7 +55,6 @@ export default {
         "0.5": "0.5px",
       },
 
-      /* BONUS UX LIKE STRIPE */
       boxShadow: {
         soft: "0 1px 2px rgba(0,0,0,0.05)",
         card: "0 8px 30px rgba(0,0,0,0.06)",
