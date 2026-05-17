@@ -8,7 +8,7 @@ export default function Navbar({ activeSection }) {
 
   return (
     <nav className="navbar">
-      <a href="#hero" className="nav-logo">Alex Dupont</a>
+      <a href="#hero" className="nav-logo">Serigne Khdim Mbacke Ba</a>
       <ul className="nav-links">
         {links.map((l) => (
           <li key={l.id}>
@@ -21,7 +21,7 @@ export default function Navbar({ activeSection }) {
           </li>
         ))}
       </ul>
-      <a href="mailto:alex.dupont@email.com" className="nav-cta">Me contacter</a>
+      <a href="mailto:serignekhadimmbackeba40@gmail.com" className="nav-cta">Me contacter</a>
     </nav>
   );
 }

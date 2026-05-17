@@ -4,12 +4,12 @@ const SKILLS = [
   {
     icon: "⚡",
     title: "Frontend",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite","html"],
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite","html","flutter","css"],
   },
   {
     icon: "🛠",
     title: "Backend",
-    tags: ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB","Spring boot","laravel","Djngo","java","python"],
+    tags: ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB","Spring boot","laravel","Djngo","java","python","php","c++","dart",""],
   },
   {
     icon: "☁️",
@@ -29,7 +29,7 @@ const SKILLS = [
   {
     icon: "🗂",
     title: "Outils",
-    tags: ["Git", "GitHub", "Figma", "Postman", "VS Code"],
+    tags: ["Git", "GitHub", "Figma", "Postman", "VS Code","IntelliJ","eclipse","visuel s"],
   },
 ];
 
