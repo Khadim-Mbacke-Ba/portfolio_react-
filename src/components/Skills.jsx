@@ -4,12 +4,12 @@ const SKILLS = [
   {
     icon: "⚡",
     title: "Frontend",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite"],
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite","html"],
   },
   {
     icon: "🛠",
     title: "Backend",
-    tags: ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB"],
+    tags: ["Node.js", "Express", "NestJS", "PostgreSQL", "MongoDB","Spring boot","laravel","Djngo","java","python"],
   },
   {
     icon: "☁️",

@@ -34,9 +34,9 @@ export default function Contact() {
   };
 
   const contactLinks = [
-    { icon: "✉️", label: "alex.dupont@email.com", href: "mailto:alex.dupont@email.com" },
-    { icon: "💼", label: "linkedin.com/in/alexdupont", href: "https://linkedin.com/in/alexdupont" },
-    { icon: "🐙", label: "github.com/alexdupont", href: "https://github.com/alexdupont" },
+    { icon: "✉️", label: "serignekhadimmbackeba40@gmail.com", href: "mailto:serignekhadimmbackeba40@gmail.com" },
+    { icon: "💼", label: "github.com/Khadim-Mbacke-Ba", href: "https://github.com/Khadim-Mbacke-Ba" },
+    { icon: "🐙", label: "github.com/Khadim-Mbacke-Ba", href: "https://github.com/Khadim-Mbacke-Ba" },
   ];
 
   return (

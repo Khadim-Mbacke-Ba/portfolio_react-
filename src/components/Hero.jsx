@@ -39,7 +39,7 @@ export default function Hero() {
           </svg>
         </a>
         <a
-          href="/cv-alex-dupont.pdf"
+          href="/cv-khadimmbackeba.pdf"
           download
           className="btn-secondary"
         >
@@ -53,11 +53,11 @@ export default function Hero() {
           <span className="stat-label">Années d'expérience</span>
         </div>
         <div className="stat-item">
-          <span className="stat-number">20+</span>
+          <span className="stat-number">4+</span>
           <span className="stat-label">Projets livrés</span>
         </div>
         <div className="stat-item">
-          <span className="stat-number">8</span>
+          <span className="stat-number">4</span>
           <span className="stat-label">Clients satisfaits</span>
         </div>
       </div>

@@ -7,7 +7,7 @@ const PROJECTS = [
     title: "Plateforme de gestion RH",
     desc: "Application fullstack pour la gestion des employés, congés et paie. Tableau de bord temps réel, exports PDF, notifications email.",
     stack: ["React", "Node.js", "PostgreSQL", "Docker"],
-    github: "https://github.com/alexdupont/rh-platform",
+    github: "https://github.com/Khadim-Mbacke-Ba/rh-platform",
     live: "https://rh-platform.vercel.app",
   },
   {
@@ -16,7 +16,7 @@ const PROJECTS = [
     title: "API e-commerce REST",
     desc: "API complète pour une boutique en ligne : catalogue produits, panier, commandes, intégration paiement Stripe et gestion des stocks.",
     stack: ["Node.js", "Express", "MongoDB", "Stripe", "Redis"],
-    github: "https://github.com/alexdupont/ecom-api",
+    github: "https://github.com/Khadim-Mbacke-Ba/ecom-api",
     live: null,
   },
   {
@@ -25,7 +25,7 @@ const PROJECTS = [
     title: "App de suivi budgétaire",
     desc: "Interface progressive pour suivre ses dépenses par catégorie, avec visualisations graphiques et alertes de dépassement de budget.",
     stack: ["Next.js", "TypeScript", "Prisma", "Chart.js"],
-    github: "https://github.com/alexdupont/budget-app",
+    github: "https://github.com/Khadim-Mbacke-Ba/budget-app",
     live: "https://budget-app.vercel.app",
   },
   {
@@ -34,7 +34,7 @@ const PROJECTS = [
     title: "CLI de scaffolding de projets",
     desc: "Outil en ligne de commande pour générer des structures de projets Node.js/React avec configuration ESLint, Prettier et Git intégrée.",
     stack: ["Node.js", "Commander.js", "Inquirer"],
-    github: "https://github.com/alexdupont/scaffold-cli",
+    github: "https://github.com/Khadim-Mbacke-Ba/scaffold-cli",
     live: null,
   },
 ];
