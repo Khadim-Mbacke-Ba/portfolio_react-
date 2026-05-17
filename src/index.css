@@ -5,23 +5,37 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth; }
-  body { @apply font-sans bg-sand-100 text-ink antialiased; }
-  ::selection { @apply bg-teal-light text-teal-dark; }
-  ::-webkit-scrollbar { width: 5px; }
-  ::-webkit-scrollbar-track { @apply bg-sand-100; }
-  ::-webkit-scrollbar-thumb { @apply bg-sand-300 rounded-full; }
-  ::-webkit-scrollbar-thumb:hover { @apply bg-ink-muted; }
-}
-
-@layer utilities {
-  .fade-up {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  html {
+    scroll-behavior: smooth;
   }
-  .fade-up.visible {
-    opacity: 1;
-    transform: translateY(0);
+
+  body {
+    @apply font-sans bg-sand-50 text-ink-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-teal-600 text-white;
+  }
+
+  /* Scrollbar minimaliste type Linear */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-sand-50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-sand-300 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-sand-400;
+  }
+
+  /* Focus accessible (Stripe style) */
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal-500 ring-offset-2;
   }
 }
