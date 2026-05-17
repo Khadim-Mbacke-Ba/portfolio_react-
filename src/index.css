@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply font-sans bg-sand-50 text-ink-900 antialiased;
+    @apply font-sans bg-sand-50 text-ink antialiased;
   }
 
   ::selection {
